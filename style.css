@@ -1,49 +1,62 @@
 /**
  * Media Query Style Exercise: Solved;
  **/
+html {
+  font-family: "Lucida Sans", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.header {
 
+}
  * {
     box-sizing: border-box;
+
   }
   
   /*
-    The background color will be #ccc
+    The background color will be #89,25,50
     at browser widths above 768px
   */
   body {
     /* Typography */
     font-size: 18px;
     line-height: 27px;
+  .card-body { 
+    padding; 10px
+
+  }
   
     /* Visual */
-    background-color: #ccc;
+  .background-color: rgb(190,40,110,9);
   }
   
   /*
     The width of the wrapper will be 1024px
     at browser widths above 768px
   */
+  .nav-link-wrapper:hoover { element class="nav-link-wrapper" :hoover>
+  }
   .wrapper {
     /* Box-model */
     width: 1024px;
   
     /* Positioning */
-    margin: 40px auto;
+    position: sticky;
+    margin: 40px;
   }
   
   #main-content,
   #sidebar {
     /* Box-model */
     width: 500px;
-    padding: 30px;
+    padding: 40px;
   }
   
   #main-content {
     /* Positioning */
-    float: left;
+    position: relative; left
   
     /* Visual */
-    background: #fff;
+    background: rgb(90,50 100,4)
   }
   
   #sidebar {
@@ -51,10 +64,10 @@
     float: right;
   
     /* Visual */
-    background: #eee;
+    background: rgb(119, 100, 50,8);
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     body {
       background-color: #333;
     }
@@ -62,7 +75,8 @@
     .wrapper {
       /* Box-model */
       width: 100%;
-      padding: 20px;
+      padding: 80px;
+      color: rgb(190, 100, 150,2)
     }
   
     #main-content,
@@ -76,17 +90,23 @@
   }
   
   /* Additional Screen Sizes */
+
+  /* Width at 556px and larger*/
+  @media screen and (max-width: 556px)
+
+
   
   /* Width at 320px and below */
   @media screen and (max-width: 320px) {
     body {
-      background-color: #333;
+      background-color: #6B337A
+
     }
   
     .wrapper {
       /* Box-model */
       width: 100%;
-      padding: 20px;
+      padding: 40px;
     }
   
     #main-content,
@@ -108,7 +128,7 @@
     .wrapper {
       /* Box-model */
       width: 100%;
-      padding: 20px;
+      padding: 40px;
     }
   
     #main-content,
@@ -117,7 +137,6 @@
     }
   
     #sidebar {
-      margin-top: 40px;
-    }
+      margin-top: 80px;
+      border
   }
-  
