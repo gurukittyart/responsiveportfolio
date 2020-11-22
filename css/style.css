@@ -16,7 +16,7 @@
     size: 10px;
     margin-top: -5%;
     margin-bottom: -5%;
-    color: rgb(75,200,150);
+    color: rgb(75,200,150);git 
   }
 
 
@@ -49,7 +49,8 @@ body {
     background-color: rosybrown;
     font-family: 'Arvo', serif;
     color: rgba(150, 200, 100, 60)
-        }
+    padding-bottom: 20px;
+}
 .h2 { font-family: 'Arvo', serif;
   color: rgba(150, 200, 100, 60)
 }
@@ -73,8 +74,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#image {
-  image-orientation: center;
+#portfolio-art {
+  image-orientation: relative;
+  
   padding-top: 20px;
   padding-right: 100px;
   padding-bottom: 20px;
